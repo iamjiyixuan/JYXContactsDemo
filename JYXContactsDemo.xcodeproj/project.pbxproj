@@ -1,0 +1,1033 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5697298B1BDD102900B144B7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5697298A1BDD102900B144B7 /* main.m */; };
+		5697298E1BDD102900B144B7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5697298D1BDD102900B144B7 /* AppDelegate.m */; };
+		569729911BDD102900B144B7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 569729901BDD102900B144B7 /* ViewController.m */; };
+		569729961BDD102900B144B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 569729951BDD102900B144B7 /* Assets.xcassets */; };
+		569729A21BDD15FF00B144B7 /* JYXContactsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 569729A11BDD15FF00B144B7 /* JYXContactsViewController.m */; };
+		569729A81BDD16B000B144B7 /* JYXContact.m in Sources */ = {isa = PBXBuildFile; fileRef = 569729A71BDD16B000B144B7 /* JYXContact.m */; };
+		569729AC1BDD16F100B144B7 /* JYXContactTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 569729AB1BDD16F100B144B7 /* JYXContactTableViewCell.m */; };
+		569729C51BDD181400B144B7 /* contacts.json in Resources */ = {isa = PBXBuildFile; fileRef = 569729BA1BDD181400B144B7 /* contacts.json */; };
+		569729CD1BDD21E400B144B7 /* JYXContactsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 569729CC1BDD21E400B144B7 /* JYXContactsManager.m */; };
+		569729D21BDD22F300B144B7 /* JYXGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 569729D11BDD22F300B144B7 /* JYXGroup.m */; };
+		56A19D341BDFB7A4001F6075 /* JYXContactCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 56A19D331BDFB7A4001F6075 /* JYXContactCollectionViewCell.m */; };
+		56A19D371BDFBE9E001F6075 /* JYXContact+JYXContactsPanelViewContact.m in Sources */ = {isa = PBXBuildFile; fileRef = 56A19D361BDFBE9E001F6075 /* JYXContact+JYXContactsPanelViewContact.m */; };
+		56A19DBB1BDFD28A001F6075 /* 【吴】Q吕蒙.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56A19D381BDFD28A001F6075 /* 【吴】Q吕蒙.jpg */; };
+		56A19DBC1BDFD28A001F6075 /* 【吴】Q周瑜.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56A19D391BDFD28A001F6075 /* 【吴】Q周瑜.jpg */; };
+		56A19DBD1BDFD28A001F6075 /* 【吴】Q大乔.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56A19D3A1BDFD28A001F6075 /* 【吴】Q大乔.jpg */; };
+		56A19DBE1BDFD28A001F6075 /* 【吴】Q孙尚香.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56A19D3B1BDFD28A001F6075 /* 【吴】Q孙尚香.jpg */; };
+		56A19DBF1BDFD28A001F6075 /* 【吴】Q孙权.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56A19D3C1BDFD28A001F6075 /* 【吴】Q孙权.jpg */; };
+		56A19DC01BDFD28A001F6075 /* 【吴】Q甘宁.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56A19D3D1BDFD28A001F6075 /* 【吴】Q甘宁.jpg */; };
+		56A19DC11BDFD28A001F6075 /* 【吴】Q陆逊.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56A19D3E1BDFD28A001F6075 /* 【吴】Q陆逊.jpg */; };
+		56A19DC21BDFD28A001F6075 /* 【吴】Q黄盖.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56A19D3F1BDFD28A001F6075 /* 【吴】Q黄盖.jpg */; };
+		56A19DC31BDFD28A001F6075 /* 【吴】凌统.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56A19D401BDFD28A001F6075 /* 【吴】凌统.jpg */; };
+		56A19DC41BDFD28A001F6075 /* 【吴】吕蒙.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56A19D411BDFD28A001F6075 /* 【吴】吕蒙.jpg */; };
+		56A19DC51BDFD28A001F6075 /* 【吴】吴国太.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56A19D421BDFD28A001F6075 /* 【吴】吴国太.jpg */; };
+		56A19DC61BDFD28A001F6075 /* 【吴】周泰.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56A19D431BDFD28A001F6075 /* 【吴】周泰.jpg */; };
+		56A19DC71BDFD28A001F6075 /* 【吴】周瑜.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56A19D441BDFD28A001F6075 /* 【吴】周瑜.jpg */; };
+		56A19DC81BDFD28A001F6075 /* 【吴】大乔.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56A19D451BDFD28A001F6075 /* 【吴】大乔.jpg */; };
+		56A19DC91BDFD28A001F6075 /* 【吴】太史慈.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56A19D461BDFD28A001F6075 /* 【吴】太史慈.jpg */; };
+		56A19DCA1BDFD28A001F6075 /* 【吴】孙坚.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56A19D471BDFD28A001F6075 /* 【吴】孙坚.jpg */; };
+		56A19DCB1BDFD28A001F6075 /* 【吴】孙尚香.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56A19D481BDFD28A001F6075 /* 【吴】孙尚香.jpg */; };
+		56A19DCC1BDFD28A001F6075 /* 【吴】孙权.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56A19D491BDFD28A001F6075 /* 【吴】孙权.jpg */; };
+		56A19DCD1BDFD28A001F6075 /* 【吴】孙策.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56A19D4A1BDFD28A001F6075 /* 【吴】孙策.jpg */; };
+		56A19DCE1BDFD28A001F6075 /* 【吴】小乔.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56A19D4B1BDFD28A001F6075 /* 【吴】小乔.jpg */; };
+		56A19DCF1BDFD28A001F6075 /* 【吴】张昭.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56A19D4C1BDFD28A001F6075 /* 【吴】张昭.jpg */; };
+		56A19DD01BDFD28A001F6075 /* 【吴】张紘.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56A19D4D1BDFD28A001F6075 /* 【吴】张紘.jpg */; };
+		56A19DD11BDFD28A001F6075 /* 【吴】徐盛.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56A19D4E1BDFD28A001F6075 /* 【吴】徐盛.jpg */; };
+		56A19DD21BDFD28A001F6075 /* 【吴】步练师.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56A19D4F1BDFD28A001F6075 /* 【吴】步练师.jpg */; };
+		56A19DD31BDFD28A001F6075 /* 【吴】甘宁.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56A19D501BDFD28A001F6075 /* 【吴】甘宁.jpg */; };
+		56A19DD41BDFD28A001F6075 /* 【吴】程普.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56A19D511BDFD28A001F6075 /* 【吴】程普.jpg */; };
+		56A19DD51BDFD28A001F6075 /* 【吴】陆逊.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56A19D521BDFD28A001F6075 /* 【吴】陆逊.jpg */; };
+		56A19DD61BDFD28A001F6075 /* 【吴】韩当.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56A19D531BDFD28A001F6075 /* 【吴】韩当.jpg */; };
+		56A19DD71BDFD28A001F6075 /* 【吴】鲁肃.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56A19D541BDFD28A001F6075 /* 【吴】鲁肃.jpg */; };
+		56A19DD81BDFD28A001F6075 /* 【吴】黄盖.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56A19D551BDFD28A001F6075 /* 【吴】黄盖.jpg */; };
+		56A19DD91BDFD28A001F6075 /* 【神】关羽.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56A19D561BDFD28A001F6075 /* 【神】关羽.jpg */; };
+		56A19DDA1BDFD28A001F6075 /* 【神】司马懿.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56A19D571BDFD28A001F6075 /* 【神】司马懿.jpg */; };
+		56A19DDB1BDFD28A001F6075 /* 【神】吕布.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56A19D581BDFD28A001F6075 /* 【神】吕布.jpg */; };
+		56A19DDC1BDFD28A001F6075 /* 【神】吕蒙.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56A19D591BDFD28A001F6075 /* 【神】吕蒙.jpg */; };
+		56A19DDD1BDFD28A001F6075 /* 【神】周瑜.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56A19D5A1BDFD28A001F6075 /* 【神】周瑜.jpg */; };
+		56A19DDE1BDFD28A001F6075 /* 【神】曹操.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56A19D5B1BDFD28A001F6075 /* 【神】曹操.jpg */; };
+		56A19DDF1BDFD28A001F6075 /* 【神】诸葛亮.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56A19D5C1BDFD28A001F6075 /* 【神】诸葛亮.jpg */; };
+		56A19DE01BDFD28A001F6075 /* 【神】赵云.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56A19D5D1BDFD28A001F6075 /* 【神】赵云.jpg */; };
+		56A19DE11BDFD28A001F6075 /* 【群】Q华佗.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56A19D5E1BDFD28A001F6075 /* 【群】Q华佗.jpg */; };
+		56A19DE21BDFD28A001F6075 /* 【群】Q吕布.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56A19D5F1BDFD28A001F6075 /* 【群】Q吕布.jpg */; };
+		56A19DE31BDFD28A001F6075 /* 【群】Q貂蝉.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56A19D601BDFD28A001F6075 /* 【群】Q貂蝉.jpg */; };
+		56A19DE41BDFD28A001F6075 /* 【群】SP貂蝉.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56A19D611BDFD28A001F6075 /* 【群】SP貂蝉.jpg */; };
+		56A19DE51BDFD28A001F6075 /* 【群】SP赵云.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56A19D621BDFD28A001F6075 /* 【群】SP赵云.jpg */; };
+		56A19DE61BDFD28A001F6075 /* 【群】SP马超.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56A19D631BDFD28A001F6075 /* 【群】SP马超.jpg */; };
+		56A19DE71BDFD28A001F6075 /* 【群】于吉.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56A19D641BDFD28A001F6075 /* 【群】于吉.jpg */; };
+		56A19DE81BDFD28A001F6075 /* 【群】公孙瓒.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56A19D651BDFD28A001F6075 /* 【群】公孙瓒.jpg */; };
+		56A19DE91BDFD28A001F6075 /* 【群】出浴貂蝉.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56A19D661BDFD28A001F6075 /* 【群】出浴貂蝉.jpg */; };
+		56A19DEA1BDFD28A001F6075 /* 【群】华佗.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56A19D671BDFD28A001F6075 /* 【群】华佗.jpg */; };
+		56A19DEB1BDFD28A001F6075 /* 【群】华雄.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56A19D681BDFD28A001F6075 /* 【群】华雄.jpg */; };
+		56A19DEC1BDFD28A001F6075 /* 【群】吕布.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56A19D691BDFD28A001F6075 /* 【群】吕布.jpg */; };
+		56A19DED1BDFD28A001F6075 /* 【群】左慈.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56A19D6A1BDFD28A001F6075 /* 【群】左慈.jpg */; };
+		56A19DEE1BDFD28A001F6075 /* 【群】庞德.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56A19D6B1BDFD28A001F6075 /* 【群】庞德.jpg */; };
+		56A19DEF1BDFD28A001F6075 /* 【群】张角.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56A19D6C1BDFD28A001F6075 /* 【群】张角.jpg */; };
+		56A19DF01BDFD28A001F6075 /* 【群】文丑.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56A19D6D1BDFD28A001F6075 /* 【群】文丑.jpg */; };
+		56A19DF11BDFD28A001F6075 /* 【群】董卓.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56A19D6E1BDFD28A001F6075 /* 【群】董卓.jpg */; };
+		56A19DF21BDFD28A001F6075 /* 【群】蔡文姬.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56A19D6F1BDFD28A001F6075 /* 【群】蔡文姬.jpg */; };
+		56A19DF31BDFD28A001F6075 /* 【群】袁术.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56A19D701BDFD28A001F6075 /* 【群】袁术.jpg */; };
+		56A19DF41BDFD28A001F6075 /* 【群】袁术（哭）.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56A19D711BDFD28A001F6075 /* 【群】袁术（哭）.jpg */; };
+		56A19DF51BDFD28A001F6075 /* 【群】袁绍.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56A19D721BDFD28A001F6075 /* 【群】袁绍.jpg */; };
+		56A19DF61BDFD28A001F6075 /* 【群】貂蝉.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56A19D731BDFD28A001F6075 /* 【群】貂蝉.jpg */; };
+		56A19DF71BDFD28A001F6075 /* 【群】贾诩.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56A19D741BDFD28A001F6075 /* 【群】贾诩.jpg */; };
+		56A19DF81BDFD28A001F6075 /* 【群】陈宫.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56A19D751BDFD28A001F6075 /* 【群】陈宫.jpg */; };
+		56A19DF91BDFD28A001F6075 /* 【群】颜良.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56A19D761BDFD28A001F6075 /* 【群】颜良.jpg */; };
+		56A19DFA1BDFD28A001F6075 /* 【群】高顺.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56A19D771BDFD28A001F6075 /* 【群】高顺.jpg */; };
+		56A19DFB1BDFD28A001F6075 /* 【蜀】Q关羽.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56A19D781BDFD28A001F6075 /* 【蜀】Q关羽.jpg */; };
+		56A19DFC1BDFD28A001F6075 /* 【蜀】Q刘备.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56A19D791BDFD28A001F6075 /* 【蜀】Q刘备.jpg */; };
+		56A19DFD1BDFD28A001F6075 /* 【蜀】Q张飞.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56A19D7A1BDFD28A001F6075 /* 【蜀】Q张飞.jpg */; };
+		56A19DFE1BDFD28A001F6075 /* 【蜀】Q诸葛亮.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56A19D7B1BDFD28A001F6075 /* 【蜀】Q诸葛亮.jpg */; };
+		56A19DFF1BDFD28A001F6075 /* 【蜀】Q赵云.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56A19D7C1BDFD28A001F6075 /* 【蜀】Q赵云.jpg */; };
+		56A19E001BDFD28A001F6075 /* 【蜀】Q马超.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56A19D7D1BDFD28A001F6075 /* 【蜀】Q马超.jpg */; };
+		56A19E011BDFD28A001F6075 /* 【蜀】Q黄月英.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56A19D7E1BDFD28A001F6075 /* 【蜀】Q黄月英.jpg */; };
+		56A19E021BDFD28A001F6075 /* 【蜀】SP孙尚香.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56A19D7F1BDFD28A001F6075 /* 【蜀】SP孙尚香.jpg */; };
+		56A19E031BDFD28A001F6075 /* 【蜀】关兴.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56A19D801BDFD28A001F6075 /* 【蜀】关兴.jpg */; };
+		56A19E041BDFD28A001F6075 /* 【蜀】关羽.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56A19D811BDFD28A001F6075 /* 【蜀】关羽.jpg */; };
+		56A19E051BDFD28A001F6075 /* 【蜀】刘备.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56A19D821BDFD28A001F6075 /* 【蜀】刘备.jpg */; };
+		56A19E061BDFD28A001F6075 /* 【蜀】刘禅.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56A19D831BDFD28A001F6075 /* 【蜀】刘禅.jpg */; };
+		56A19E071BDFD28A001F6075 /* 【蜀】姜维.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56A19D841BDFD28A001F6075 /* 【蜀】姜维.jpg */; };
+		56A19E081BDFD28A001F6075 /* 【蜀】威武霸气我大马参军.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56A19D851BDFD28A001F6075 /* 【蜀】威武霸气我大马参军.jpg */; };
+		56A19E091BDFD28A001F6075 /* 【蜀】孟获.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56A19D861BDFD28A001F6075 /* 【蜀】孟获.jpg */; };
+		56A19E0A1BDFD28A001F6075 /* 【蜀】庞统.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56A19D871BDFD28A001F6075 /* 【蜀】庞统.jpg */; };
+		56A19E0B1BDFD28A001F6075 /* 【蜀】廖化.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56A19D881BDFD28A001F6075 /* 【蜀】廖化.jpg */; };
+		56A19E0C1BDFD28A001F6075 /* 【蜀】张苞.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56A19D891BDFD28A001F6075 /* 【蜀】张苞.jpg */; };
+		56A19E0D1BDFD28A001F6075 /* 【蜀】张飞.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56A19D8A1BDFD28A001F6075 /* 【蜀】张飞.jpg */; };
+		56A19E0E1BDFD28A001F6075 /* 【蜀】徐庶.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56A19D8B1BDFD28A001F6075 /* 【蜀】徐庶.jpg */; };
+		56A19E0F1BDFD28A001F6075 /* 【蜀】法正.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56A19D8C1BDFD28A001F6075 /* 【蜀】法正.jpg */; };
+		56A19E101BDFD28A001F6075 /* 【蜀】祝融.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56A19D8D1BDFD28A001F6075 /* 【蜀】祝融.jpg */; };
+		56A19E111BDFD28A001F6075 /* 【蜀】诸葛亮.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56A19D8E1BDFD28A001F6075 /* 【蜀】诸葛亮.jpg */; };
+		56A19E121BDFD28A001F6075 /* 【蜀】诸葛亮（卧龙）.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56A19D8F1BDFD28A001F6075 /* 【蜀】诸葛亮（卧龙）.jpg */; };
+		56A19E131BDFD28A001F6075 /* 【蜀】赵云.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56A19D901BDFD28A001F6075 /* 【蜀】赵云.jpg */; };
+		56A19E141BDFD28A001F6075 /* 【蜀】马岱.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56A19D911BDFD28A001F6075 /* 【蜀】马岱.jpg */; };
+		56A19E151BDFD28A001F6075 /* 【蜀】马超.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56A19D921BDFD28A001F6075 /* 【蜀】马超.jpg */; };
+		56A19E161BDFD28A001F6075 /* 【蜀】魏延.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56A19D931BDFD28A001F6075 /* 【蜀】魏延.jpg */; };
+		56A19E171BDFD28A001F6075 /* 【蜀】黄忠.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56A19D941BDFD28A001F6075 /* 【蜀】黄忠.jpg */; };
+		56A19E181BDFD28A001F6075 /* 【蜀】黄月英.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56A19D951BDFD28A001F6075 /* 【蜀】黄月英.jpg */; };
+		56A19E191BDFD28A001F6075 /* 【魏】Q司马懿.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56A19D961BDFD28A001F6075 /* 【魏】Q司马懿.jpg */; };
+		56A19E1A1BDFD28A001F6075 /* 【魏】Q夏侯惇.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56A19D971BDFD28A001F6075 /* 【魏】Q夏侯惇.jpg */; };
+		56A19E1B1BDFD28A001F6075 /* 【魏】Q张辽.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56A19D981BDFD28A001F6075 /* 【魏】Q张辽.jpg */; };
+		56A19E1C1BDFD28A001F6075 /* 【魏】Q曹操.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56A19D991BDFD28A001F6075 /* 【魏】Q曹操.jpg */; };
+		56A19E1D1BDFD28A001F6075 /* 【魏】Q杨修.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56A19D9A1BDFD28A001F6075 /* 【魏】Q杨修.jpg */; };
+		56A19E1E1BDFD28A001F6075 /* 【魏】Q甄姬.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56A19D9B1BDFD28A001F6075 /* 【魏】Q甄姬.jpg */; };
+		56A19E1F1BDFD28A001F6075 /* 【魏】Q许褚.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56A19D9C1BDFD28A001F6075 /* 【魏】Q许褚.jpg */; };
+		56A19E201BDFD28A001F6075 /* 【魏】Q郭嘉.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56A19D9D1BDFD28A001F6075 /* 【魏】Q郭嘉.jpg */; };
+		56A19E211BDFD28A001F6075 /* 【魏】SP关羽.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56A19D9E1BDFD28A001F6075 /* 【魏】SP关羽.jpg */; };
+		56A19E221BDFD28A001F6075 /* 【魏】SP庞德.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56A19D9F1BDFD28A001F6075 /* 【魏】SP庞德.jpg */; };
+		56A19E231BDFD28A001F6075 /* 【魏】SP蔡文姬.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56A19DA01BDFD28A001F6075 /* 【魏】SP蔡文姬.jpg */; };
+		56A19E241BDFD28A001F6075 /* 【魏】SP贾诩.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56A19DA11BDFD28A001F6075 /* 【魏】SP贾诩.jpg */; };
+		56A19E251BDFD28A001F6075 /* 【魏】于禁.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56A19DA21BDFD28A001F6075 /* 【魏】于禁.jpg */; };
+		56A19E261BDFD28A001F6075 /* 【魏】典韦.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56A19DA31BDFD28A001F6075 /* 【魏】典韦.jpg */; };
+		56A19E271BDFD28A001F6075 /* 【魏】司马懿.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56A19DA41BDFD28A001F6075 /* 【魏】司马懿.jpg */; };
+		56A19E281BDFD28A001F6075 /* 【魏】夏侯惇.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56A19DA51BDFD28A001F6075 /* 【魏】夏侯惇.jpg */; };
+		56A19E291BDFD28A001F6075 /* 【魏】夏侯渊.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56A19DA61BDFD28A001F6075 /* 【魏】夏侯渊.jpg */; };
+		56A19E2A1BDFD28A001F6075 /* 【魏】张春华.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56A19DA71BDFD28A001F6075 /* 【魏】张春华.jpg */; };
+		56A19E2B1BDFD28A001F6075 /* 【魏】张辽.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56A19DA81BDFD28A001F6075 /* 【魏】张辽.jpg */; };
+		56A19E2C1BDFD28A001F6075 /* 【魏】张郃.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56A19DA91BDFD28A001F6075 /* 【魏】张郃.jpg */; };
+		56A19E2D1BDFD28A001F6075 /* 【魏】徐晃.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56A19DAA1BDFD28A001F6075 /* 【魏】徐晃.jpg */; };
+		56A19E2E1BDFD28A001F6075 /* 【魏】曹丕.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56A19DAB1BDFD28A001F6075 /* 【魏】曹丕.jpg */; };
+		56A19E2F1BDFD28A001F6075 /* 【魏】曹仁.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56A19DAC1BDFD28A001F6075 /* 【魏】曹仁.jpg */; };
+		56A19E301BDFD28A001F6075 /* 【魏】曹彰.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56A19DAD1BDFD28A001F6075 /* 【魏】曹彰.jpg */; };
+		56A19E311BDFD28A001F6075 /* 【魏】曹操.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56A19DAE1BDFD28A001F6075 /* 【魏】曹操.jpg */; };
+		56A19E321BDFD28A001F6075 /* 【魏】曹植.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56A19DAF1BDFD28A001F6075 /* 【魏】曹植.jpg */; };
+		56A19E331BDFD28A001F6075 /* 【魏】杨修.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56A19DB01BDFD28A001F6075 /* 【魏】杨修.jpg */; };
+		56A19E341BDFD28A001F6075 /* 【魏】王异.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56A19DB11BDFD28A001F6075 /* 【魏】王异.jpg */; };
+		56A19E351BDFD28A001F6075 /* 【魏】甄姬.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56A19DB21BDFD28A001F6075 /* 【魏】甄姬.jpg */; };
+		56A19E361BDFD28A001F6075 /* 【魏】荀彧.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56A19DB31BDFD28A001F6075 /* 【魏】荀彧.jpg */; };
+		56A19E371BDFD28A001F6075 /* 【魏】荀攸.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56A19DB41BDFD28A001F6075 /* 【魏】荀攸.jpg */; };
+		56A19E381BDFD28A001F6075 /* 【魏】许褚.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56A19DB51BDFD28A001F6075 /* 【魏】许褚.jpg */; };
+		56A19E391BDFD28A001F6075 /* 【魏】邓艾.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56A19DB61BDFD28A001F6075 /* 【魏】邓艾.jpg */; };
+		56A19E3A1BDFD28A001F6075 /* 【魏】郭嘉.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56A19DB71BDFD28A001F6075 /* 【魏】郭嘉.jpg */; };
+		56A19E3B1BDFD28A001F6075 /* 【魏】钟会.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56A19DB81BDFD28A001F6075 /* 【魏】钟会.jpg */; };
+		56A19E401BDFD394001F6075 /* contactsjson_generator.rb in Resources */ = {isa = PBXBuildFile; fileRef = 56A19E3F1BDFD394001F6075 /* contactsjson_generator.rb */; };
+		56C36DB71BDE78710014FCEA /* JYXContactsPanelView.m in Sources */ = {isa = PBXBuildFile; fileRef = 56C36DB61BDE78710014FCEA /* JYXContactsPanelView.m */; };
+		56C36DBA1BDE78D80014FCEA /* JYXContactsPanelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56C36DB91BDE78D80014FCEA /* JYXContactsPanelViewController.m */; };
+		8644398C9A54DABC0B5AB26F /* libPods-JYXContactsDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3892F4EE43934F3A920DBB95 /* libPods-JYXContactsDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		30EEC2B180270111459444C3 /* Pods-JYXContactsDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JYXContactsDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-JYXContactsDemo/Pods-JYXContactsDemo.release.xcconfig"; sourceTree = "<group>"; };
+		3892F4EE43934F3A920DBB95 /* libPods-JYXContactsDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JYXContactsDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		569729861BDD102900B144B7 /* JYXContactsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JYXContactsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5697298A1BDD102900B144B7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5697298C1BDD102900B144B7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5697298D1BDD102900B144B7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5697298F1BDD102900B144B7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		569729901BDD102900B144B7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		569729951BDD102900B144B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5697299A1BDD102900B144B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		569729A01BDD15FF00B144B7 /* JYXContactsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYXContactsViewController.h; sourceTree = "<group>"; };
+		569729A11BDD15FF00B144B7 /* JYXContactsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYXContactsViewController.m; sourceTree = "<group>"; };
+		569729A61BDD16B000B144B7 /* JYXContact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYXContact.h; sourceTree = "<group>"; };
+		569729A71BDD16B000B144B7 /* JYXContact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYXContact.m; sourceTree = "<group>"; };
+		569729AA1BDD16F100B144B7 /* JYXContactTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYXContactTableViewCell.h; sourceTree = "<group>"; };
+		569729AB1BDD16F100B144B7 /* JYXContactTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYXContactTableViewCell.m; sourceTree = "<group>"; };
+		569729BA1BDD181400B144B7 /* contacts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = contacts.json; sourceTree = "<group>"; };
+		569729CB1BDD21E400B144B7 /* JYXContactsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYXContactsManager.h; sourceTree = "<group>"; };
+		569729CC1BDD21E400B144B7 /* JYXContactsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYXContactsManager.m; sourceTree = "<group>"; };
+		569729D01BDD22F300B144B7 /* JYXGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYXGroup.h; sourceTree = "<group>"; };
+		569729D11BDD22F300B144B7 /* JYXGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYXGroup.m; sourceTree = "<group>"; };
+		56A19D321BDFB7A4001F6075 /* JYXContactCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYXContactCollectionViewCell.h; sourceTree = "<group>"; };
+		56A19D331BDFB7A4001F6075 /* JYXContactCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYXContactCollectionViewCell.m; sourceTree = "<group>"; };
+		56A19D351BDFBE9E001F6075 /* JYXContact+JYXContactsPanelViewContact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JYXContact+JYXContactsPanelViewContact.h"; sourceTree = "<group>"; };
+		56A19D361BDFBE9E001F6075 /* JYXContact+JYXContactsPanelViewContact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "JYXContact+JYXContactsPanelViewContact.m"; sourceTree = "<group>"; };
+		56A19D381BDFD28A001F6075 /* 【吴】Q吕蒙.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "【吴】Q吕蒙.jpg"; sourceTree = "<group>"; };
+		56A19D391BDFD28A001F6075 /* 【吴】Q周瑜.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "【吴】Q周瑜.jpg"; sourceTree = "<group>"; };
+		56A19D3A1BDFD28A001F6075 /* 【吴】Q大乔.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "【吴】Q大乔.jpg"; sourceTree = "<group>"; };
+		56A19D3B1BDFD28A001F6075 /* 【吴】Q孙尚香.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "【吴】Q孙尚香.jpg"; sourceTree = "<group>"; };
+		56A19D3C1BDFD28A001F6075 /* 【吴】Q孙权.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "【吴】Q孙权.jpg"; sourceTree = "<group>"; };
+		56A19D3D1BDFD28A001F6075 /* 【吴】Q甘宁.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "【吴】Q甘宁.jpg"; sourceTree = "<group>"; };
+		56A19D3E1BDFD28A001F6075 /* 【吴】Q陆逊.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "【吴】Q陆逊.jpg"; sourceTree = "<group>"; };
+		56A19D3F1BDFD28A001F6075 /* 【吴】Q黄盖.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "【吴】Q黄盖.jpg"; sourceTree = "<group>"; };
+		56A19D401BDFD28A001F6075 /* 【吴】凌统.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "【吴】凌统.jpg"; sourceTree = "<group>"; };
+		56A19D411BDFD28A001F6075 /* 【吴】吕蒙.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "【吴】吕蒙.jpg"; sourceTree = "<group>"; };
+		56A19D421BDFD28A001F6075 /* 【吴】吴国太.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "【吴】吴国太.jpg"; sourceTree = "<group>"; };
+		56A19D431BDFD28A001F6075 /* 【吴】周泰.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "【吴】周泰.jpg"; sourceTree = "<group>"; };
+		56A19D441BDFD28A001F6075 /* 【吴】周瑜.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "【吴】周瑜.jpg"; sourceTree = "<group>"; };
+		56A19D451BDFD28A001F6075 /* 【吴】大乔.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "【吴】大乔.jpg"; sourceTree = "<group>"; };
+		56A19D461BDFD28A001F6075 /* 【吴】太史慈.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "【吴】太史慈.jpg"; sourceTree = "<group>"; };
+		56A19D471BDFD28A001F6075 /* 【吴】孙坚.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "【吴】孙坚.jpg"; sourceTree = "<group>"; };
+		56A19D481BDFD28A001F6075 /* 【吴】孙尚香.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "【吴】孙尚香.jpg"; sourceTree = "<group>"; };
+		56A19D491BDFD28A001F6075 /* 【吴】孙权.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "【吴】孙权.jpg"; sourceTree = "<group>"; };
+		56A19D4A1BDFD28A001F6075 /* 【吴】孙策.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "【吴】孙策.jpg"; sourceTree = "<group>"; };
+		56A19D4B1BDFD28A001F6075 /* 【吴】小乔.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "【吴】小乔.jpg"; sourceTree = "<group>"; };
+		56A19D4C1BDFD28A001F6075 /* 【吴】张昭.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "【吴】张昭.jpg"; sourceTree = "<group>"; };
+		56A19D4D1BDFD28A001F6075 /* 【吴】张紘.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "【吴】张紘.jpg"; sourceTree = "<group>"; };
+		56A19D4E1BDFD28A001F6075 /* 【吴】徐盛.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "【吴】徐盛.jpg"; sourceTree = "<group>"; };
+		56A19D4F1BDFD28A001F6075 /* 【吴】步练师.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "【吴】步练师.jpg"; sourceTree = "<group>"; };
+		56A19D501BDFD28A001F6075 /* 【吴】甘宁.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "【吴】甘宁.jpg"; sourceTree = "<group>"; };
+		56A19D511BDFD28A001F6075 /* 【吴】程普.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "【吴】程普.jpg"; sourceTree = "<group>"; };
+		56A19D521BDFD28A001F6075 /* 【吴】陆逊.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "【吴】陆逊.jpg"; sourceTree = "<group>"; };
+		56A19D531BDFD28A001F6075 /* 【吴】韩当.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "【吴】韩当.jpg"; sourceTree = "<group>"; };
+		56A19D541BDFD28A001F6075 /* 【吴】鲁肃.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "【吴】鲁肃.jpg"; sourceTree = "<group>"; };
+		56A19D551BDFD28A001F6075 /* 【吴】黄盖.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "【吴】黄盖.jpg"; sourceTree = "<group>"; };
+		56A19D561BDFD28A001F6075 /* 【神】关羽.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "【神】关羽.jpg"; sourceTree = "<group>"; };
+		56A19D571BDFD28A001F6075 /* 【神】司马懿.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "【神】司马懿.jpg"; sourceTree = "<group>"; };
+		56A19D581BDFD28A001F6075 /* 【神】吕布.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "【神】吕布.jpg"; sourceTree = "<group>"; };
+		56A19D591BDFD28A001F6075 /* 【神】吕蒙.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "【神】吕蒙.jpg"; sourceTree = "<group>"; };
+		56A19D5A1BDFD28A001F6075 /* 【神】周瑜.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "【神】周瑜.jpg"; sourceTree = "<group>"; };
+		56A19D5B1BDFD28A001F6075 /* 【神】曹操.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "【神】曹操.jpg"; sourceTree = "<group>"; };
+		56A19D5C1BDFD28A001F6075 /* 【神】诸葛亮.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "【神】诸葛亮.jpg"; sourceTree = "<group>"; };
+		56A19D5D1BDFD28A001F6075 /* 【神】赵云.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "【神】赵云.jpg"; sourceTree = "<group>"; };
+		56A19D5E1BDFD28A001F6075 /* 【群】Q华佗.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "【群】Q华佗.jpg"; sourceTree = "<group>"; };
+		56A19D5F1BDFD28A001F6075 /* 【群】Q吕布.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "【群】Q吕布.jpg"; sourceTree = "<group>"; };
+		56A19D601BDFD28A001F6075 /* 【群】Q貂蝉.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "【群】Q貂蝉.jpg"; sourceTree = "<group>"; };
+		56A19D611BDFD28A001F6075 /* 【群】SP貂蝉.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "【群】SP貂蝉.jpg"; sourceTree = "<group>"; };
+		56A19D621BDFD28A001F6075 /* 【群】SP赵云.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "【群】SP赵云.jpg"; sourceTree = "<group>"; };
+		56A19D631BDFD28A001F6075 /* 【群】SP马超.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "【群】SP马超.jpg"; sourceTree = "<group>"; };
+		56A19D641BDFD28A001F6075 /* 【群】于吉.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "【群】于吉.jpg"; sourceTree = "<group>"; };
+		56A19D651BDFD28A001F6075 /* 【群】公孙瓒.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "【群】公孙瓒.jpg"; sourceTree = "<group>"; };
+		56A19D661BDFD28A001F6075 /* 【群】出浴貂蝉.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "【群】出浴貂蝉.jpg"; sourceTree = "<group>"; };
+		56A19D671BDFD28A001F6075 /* 【群】华佗.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "【群】华佗.jpg"; sourceTree = "<group>"; };
+		56A19D681BDFD28A001F6075 /* 【群】华雄.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "【群】华雄.jpg"; sourceTree = "<group>"; };
+		56A19D691BDFD28A001F6075 /* 【群】吕布.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "【群】吕布.jpg"; sourceTree = "<group>"; };
+		56A19D6A1BDFD28A001F6075 /* 【群】左慈.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "【群】左慈.jpg"; sourceTree = "<group>"; };
+		56A19D6B1BDFD28A001F6075 /* 【群】庞德.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "【群】庞德.jpg"; sourceTree = "<group>"; };
+		56A19D6C1BDFD28A001F6075 /* 【群】张角.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "【群】张角.jpg"; sourceTree = "<group>"; };
+		56A19D6D1BDFD28A001F6075 /* 【群】文丑.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "【群】文丑.jpg"; sourceTree = "<group>"; };
+		56A19D6E1BDFD28A001F6075 /* 【群】董卓.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "【群】董卓.jpg"; sourceTree = "<group>"; };
+		56A19D6F1BDFD28A001F6075 /* 【群】蔡文姬.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "【群】蔡文姬.jpg"; sourceTree = "<group>"; };
+		56A19D701BDFD28A001F6075 /* 【群】袁术.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "【群】袁术.jpg"; sourceTree = "<group>"; };
+		56A19D711BDFD28A001F6075 /* 【群】袁术（哭）.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "【群】袁术（哭）.jpg"; sourceTree = "<group>"; };
+		56A19D721BDFD28A001F6075 /* 【群】袁绍.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "【群】袁绍.jpg"; sourceTree = "<group>"; };
+		56A19D731BDFD28A001F6075 /* 【群】貂蝉.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "【群】貂蝉.jpg"; sourceTree = "<group>"; };
+		56A19D741BDFD28A001F6075 /* 【群】贾诩.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "【群】贾诩.jpg"; sourceTree = "<group>"; };
+		56A19D751BDFD28A001F6075 /* 【群】陈宫.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "【群】陈宫.jpg"; sourceTree = "<group>"; };
+		56A19D761BDFD28A001F6075 /* 【群】颜良.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "【群】颜良.jpg"; sourceTree = "<group>"; };
+		56A19D771BDFD28A001F6075 /* 【群】高顺.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "【群】高顺.jpg"; sourceTree = "<group>"; };
+		56A19D781BDFD28A001F6075 /* 【蜀】Q关羽.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "【蜀】Q关羽.jpg"; sourceTree = "<group>"; };
+		56A19D791BDFD28A001F6075 /* 【蜀】Q刘备.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "【蜀】Q刘备.jpg"; sourceTree = "<group>"; };
+		56A19D7A1BDFD28A001F6075 /* 【蜀】Q张飞.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "【蜀】Q张飞.jpg"; sourceTree = "<group>"; };
+		56A19D7B1BDFD28A001F6075 /* 【蜀】Q诸葛亮.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "【蜀】Q诸葛亮.jpg"; sourceTree = "<group>"; };
+		56A19D7C1BDFD28A001F6075 /* 【蜀】Q赵云.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "【蜀】Q赵云.jpg"; sourceTree = "<group>"; };
+		56A19D7D1BDFD28A001F6075 /* 【蜀】Q马超.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "【蜀】Q马超.jpg"; sourceTree = "<group>"; };
+		56A19D7E1BDFD28A001F6075 /* 【蜀】Q黄月英.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "【蜀】Q黄月英.jpg"; sourceTree = "<group>"; };
+		56A19D7F1BDFD28A001F6075 /* 【蜀】SP孙尚香.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "【蜀】SP孙尚香.jpg"; sourceTree = "<group>"; };
+		56A19D801BDFD28A001F6075 /* 【蜀】关兴.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "【蜀】关兴.jpg"; sourceTree = "<group>"; };
+		56A19D811BDFD28A001F6075 /* 【蜀】关羽.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "【蜀】关羽.jpg"; sourceTree = "<group>"; };
+		56A19D821BDFD28A001F6075 /* 【蜀】刘备.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "【蜀】刘备.jpg"; sourceTree = "<group>"; };
+		56A19D831BDFD28A001F6075 /* 【蜀】刘禅.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "【蜀】刘禅.jpg"; sourceTree = "<group>"; };
+		56A19D841BDFD28A001F6075 /* 【蜀】姜维.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "【蜀】姜维.jpg"; sourceTree = "<group>"; };
+		56A19D851BDFD28A001F6075 /* 【蜀】威武霸气我大马参军.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "【蜀】威武霸气我大马参军.jpg"; sourceTree = "<group>"; };
+		56A19D861BDFD28A001F6075 /* 【蜀】孟获.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "【蜀】孟获.jpg"; sourceTree = "<group>"; };
+		56A19D871BDFD28A001F6075 /* 【蜀】庞统.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "【蜀】庞统.jpg"; sourceTree = "<group>"; };
+		56A19D881BDFD28A001F6075 /* 【蜀】廖化.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "【蜀】廖化.jpg"; sourceTree = "<group>"; };
+		56A19D891BDFD28A001F6075 /* 【蜀】张苞.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "【蜀】张苞.jpg"; sourceTree = "<group>"; };
+		56A19D8A1BDFD28A001F6075 /* 【蜀】张飞.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "【蜀】张飞.jpg"; sourceTree = "<group>"; };
+		56A19D8B1BDFD28A001F6075 /* 【蜀】徐庶.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "【蜀】徐庶.jpg"; sourceTree = "<group>"; };
+		56A19D8C1BDFD28A001F6075 /* 【蜀】法正.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "【蜀】法正.jpg"; sourceTree = "<group>"; };
+		56A19D8D1BDFD28A001F6075 /* 【蜀】祝融.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "【蜀】祝融.jpg"; sourceTree = "<group>"; };
+		56A19D8E1BDFD28A001F6075 /* 【蜀】诸葛亮.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "【蜀】诸葛亮.jpg"; sourceTree = "<group>"; };
+		56A19D8F1BDFD28A001F6075 /* 【蜀】诸葛亮（卧龙）.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "【蜀】诸葛亮（卧龙）.jpg"; sourceTree = "<group>"; };
+		56A19D901BDFD28A001F6075 /* 【蜀】赵云.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "【蜀】赵云.jpg"; sourceTree = "<group>"; };
+		56A19D911BDFD28A001F6075 /* 【蜀】马岱.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "【蜀】马岱.jpg"; sourceTree = "<group>"; };
+		56A19D921BDFD28A001F6075 /* 【蜀】马超.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "【蜀】马超.jpg"; sourceTree = "<group>"; };
+		56A19D931BDFD28A001F6075 /* 【蜀】魏延.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "【蜀】魏延.jpg"; sourceTree = "<group>"; };
+		56A19D941BDFD28A001F6075 /* 【蜀】黄忠.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "【蜀】黄忠.jpg"; sourceTree = "<group>"; };
+		56A19D951BDFD28A001F6075 /* 【蜀】黄月英.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "【蜀】黄月英.jpg"; sourceTree = "<group>"; };
+		56A19D961BDFD28A001F6075 /* 【魏】Q司马懿.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "【魏】Q司马懿.jpg"; sourceTree = "<group>"; };
+		56A19D971BDFD28A001F6075 /* 【魏】Q夏侯惇.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "【魏】Q夏侯惇.jpg"; sourceTree = "<group>"; };
+		56A19D981BDFD28A001F6075 /* 【魏】Q张辽.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "【魏】Q张辽.jpg"; sourceTree = "<group>"; };
+		56A19D991BDFD28A001F6075 /* 【魏】Q曹操.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "【魏】Q曹操.jpg"; sourceTree = "<group>"; };
+		56A19D9A1BDFD28A001F6075 /* 【魏】Q杨修.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "【魏】Q杨修.jpg"; sourceTree = "<group>"; };
+		56A19D9B1BDFD28A001F6075 /* 【魏】Q甄姬.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "【魏】Q甄姬.jpg"; sourceTree = "<group>"; };
+		56A19D9C1BDFD28A001F6075 /* 【魏】Q许褚.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "【魏】Q许褚.jpg"; sourceTree = "<group>"; };
+		56A19D9D1BDFD28A001F6075 /* 【魏】Q郭嘉.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "【魏】Q郭嘉.jpg"; sourceTree = "<group>"; };
+		56A19D9E1BDFD28A001F6075 /* 【魏】SP关羽.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "【魏】SP关羽.jpg"; sourceTree = "<group>"; };
+		56A19D9F1BDFD28A001F6075 /* 【魏】SP庞德.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "【魏】SP庞德.jpg"; sourceTree = "<group>"; };
+		56A19DA01BDFD28A001F6075 /* 【魏】SP蔡文姬.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "【魏】SP蔡文姬.jpg"; sourceTree = "<group>"; };
+		56A19DA11BDFD28A001F6075 /* 【魏】SP贾诩.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "【魏】SP贾诩.jpg"; sourceTree = "<group>"; };
+		56A19DA21BDFD28A001F6075 /* 【魏】于禁.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "【魏】于禁.jpg"; sourceTree = "<group>"; };
+		56A19DA31BDFD28A001F6075 /* 【魏】典韦.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "【魏】典韦.jpg"; sourceTree = "<group>"; };
+		56A19DA41BDFD28A001F6075 /* 【魏】司马懿.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "【魏】司马懿.jpg"; sourceTree = "<group>"; };
+		56A19DA51BDFD28A001F6075 /* 【魏】夏侯惇.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "【魏】夏侯惇.jpg"; sourceTree = "<group>"; };
+		56A19DA61BDFD28A001F6075 /* 【魏】夏侯渊.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "【魏】夏侯渊.jpg"; sourceTree = "<group>"; };
+		56A19DA71BDFD28A001F6075 /* 【魏】张春华.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "【魏】张春华.jpg"; sourceTree = "<group>"; };
+		56A19DA81BDFD28A001F6075 /* 【魏】张辽.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "【魏】张辽.jpg"; sourceTree = "<group>"; };
+		56A19DA91BDFD28A001F6075 /* 【魏】张郃.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "【魏】张郃.jpg"; sourceTree = "<group>"; };
+		56A19DAA1BDFD28A001F6075 /* 【魏】徐晃.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "【魏】徐晃.jpg"; sourceTree = "<group>"; };
+		56A19DAB1BDFD28A001F6075 /* 【魏】曹丕.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "【魏】曹丕.jpg"; sourceTree = "<group>"; };
+		56A19DAC1BDFD28A001F6075 /* 【魏】曹仁.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "【魏】曹仁.jpg"; sourceTree = "<group>"; };
+		56A19DAD1BDFD28A001F6075 /* 【魏】曹彰.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "【魏】曹彰.jpg"; sourceTree = "<group>"; };
+		56A19DAE1BDFD28A001F6075 /* 【魏】曹操.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "【魏】曹操.jpg"; sourceTree = "<group>"; };
+		56A19DAF1BDFD28A001F6075 /* 【魏】曹植.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "【魏】曹植.jpg"; sourceTree = "<group>"; };
+		56A19DB01BDFD28A001F6075 /* 【魏】杨修.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "【魏】杨修.jpg"; sourceTree = "<group>"; };
+		56A19DB11BDFD28A001F6075 /* 【魏】王异.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "【魏】王异.jpg"; sourceTree = "<group>"; };
+		56A19DB21BDFD28A001F6075 /* 【魏】甄姬.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "【魏】甄姬.jpg"; sourceTree = "<group>"; };
+		56A19DB31BDFD28A001F6075 /* 【魏】荀彧.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "【魏】荀彧.jpg"; sourceTree = "<group>"; };
+		56A19DB41BDFD28A001F6075 /* 【魏】荀攸.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "【魏】荀攸.jpg"; sourceTree = "<group>"; };
+		56A19DB51BDFD28A001F6075 /* 【魏】许褚.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "【魏】许褚.jpg"; sourceTree = "<group>"; };
+		56A19DB61BDFD28A001F6075 /* 【魏】邓艾.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "【魏】邓艾.jpg"; sourceTree = "<group>"; };
+		56A19DB71BDFD28A001F6075 /* 【魏】郭嘉.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "【魏】郭嘉.jpg"; sourceTree = "<group>"; };
+		56A19DB81BDFD28A001F6075 /* 【魏】钟会.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "【魏】钟会.jpg"; sourceTree = "<group>"; };
+		56A19E3F1BDFD394001F6075 /* contactsjson_generator.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = contactsjson_generator.rb; sourceTree = "<group>"; };
+		56C36DB51BDE78710014FCEA /* JYXContactsPanelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYXContactsPanelView.h; sourceTree = "<group>"; };
+		56C36DB61BDE78710014FCEA /* JYXContactsPanelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYXContactsPanelView.m; sourceTree = "<group>"; };
+		56C36DB81BDE78D80014FCEA /* JYXContactsPanelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYXContactsPanelViewController.h; sourceTree = "<group>"; };
+		56C36DB91BDE78D80014FCEA /* JYXContactsPanelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYXContactsPanelViewController.m; sourceTree = "<group>"; };
+		E1B52D1FE12D0719A55FC6FF /* Pods-JYXContactsDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JYXContactsDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JYXContactsDemo/Pods-JYXContactsDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		569729831BDD102900B144B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8644398C9A54DABC0B5AB26F /* libPods-JYXContactsDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0FFEF221551F73D90453967A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3892F4EE43934F3A920DBB95 /* libPods-JYXContactsDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5043BF6D7B0BC906EBFF4EAD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E1B52D1FE12D0719A55FC6FF /* Pods-JYXContactsDemo.debug.xcconfig */,
+				30EEC2B180270111459444C3 /* Pods-JYXContactsDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5697297D1BDD102900B144B7 = {
+			isa = PBXGroup;
+			children = (
+				569729881BDD102900B144B7 /* JYXContactsDemo */,
+				569729871BDD102900B144B7 /* Products */,
+				5043BF6D7B0BC906EBFF4EAD /* Pods */,
+				0FFEF221551F73D90453967A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		569729871BDD102900B144B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				569729861BDD102900B144B7 /* JYXContactsDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		569729881BDD102900B144B7 /* JYXContactsDemo */ = {
+			isa = PBXGroup;
+			children = (
+				56A19E3E1BDFD350001F6075 /* Script */,
+				569729AD1BDD181400B144B7 /* Resource */,
+				569729CA1BDD219200B144B7 /* Manager */,
+				569729A31BDD166F00B144B7 /* Application */,
+				569729A41BDD167900B144B7 /* ViewController */,
+				569729A91BDD16C600B144B7 /* TableViewCell */,
+				56A19D311BDFB77F001F6075 /* CollectionViewCell */,
+				56D140FE1BDE77B10049EC76 /* View */,
+				569729A51BDD169B00B144B7 /* Model */,
+				569729951BDD102900B144B7 /* Assets.xcassets */,
+				5697299A1BDD102900B144B7 /* Info.plist */,
+				569729891BDD102900B144B7 /* Supporting Files */,
+			);
+			path = JYXContactsDemo;
+			sourceTree = "<group>";
+		};
+		569729891BDD102900B144B7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5697298A1BDD102900B144B7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		569729A31BDD166F00B144B7 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				5697298C1BDD102900B144B7 /* AppDelegate.h */,
+				5697298D1BDD102900B144B7 /* AppDelegate.m */,
+			);
+			name = Application;
+			sourceTree = "<group>";
+		};
+		569729A41BDD167900B144B7 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5697298F1BDD102900B144B7 /* ViewController.h */,
+				569729901BDD102900B144B7 /* ViewController.m */,
+				569729A01BDD15FF00B144B7 /* JYXContactsViewController.h */,
+				569729A11BDD15FF00B144B7 /* JYXContactsViewController.m */,
+				56C36DB81BDE78D80014FCEA /* JYXContactsPanelViewController.h */,
+				56C36DB91BDE78D80014FCEA /* JYXContactsPanelViewController.m */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		569729A51BDD169B00B144B7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				569729D01BDD22F300B144B7 /* JYXGroup.h */,
+				569729D11BDD22F300B144B7 /* JYXGroup.m */,
+				569729A61BDD16B000B144B7 /* JYXContact.h */,
+				569729A71BDD16B000B144B7 /* JYXContact.m */,
+				56A19D351BDFBE9E001F6075 /* JYXContact+JYXContactsPanelViewContact.h */,
+				56A19D361BDFBE9E001F6075 /* JYXContact+JYXContactsPanelViewContact.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		569729A91BDD16C600B144B7 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				569729AA1BDD16F100B144B7 /* JYXContactTableViewCell.h */,
+				569729AB1BDD16F100B144B7 /* JYXContactTableViewCell.m */,
+			);
+			name = TableViewCell;
+			sourceTree = "<group>";
+		};
+		569729AD1BDD181400B144B7 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				569729AE1BDD181400B144B7 /* Images */,
+				569729B91BDD181400B144B7 /* Jsons */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		569729AE1BDD181400B144B7 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				56A19D381BDFD28A001F6075 /* 【吴】Q吕蒙.jpg */,
+				56A19D391BDFD28A001F6075 /* 【吴】Q周瑜.jpg */,
+				56A19D3A1BDFD28A001F6075 /* 【吴】Q大乔.jpg */,
+				56A19D3B1BDFD28A001F6075 /* 【吴】Q孙尚香.jpg */,
+				56A19D3C1BDFD28A001F6075 /* 【吴】Q孙权.jpg */,
+				56A19D3D1BDFD28A001F6075 /* 【吴】Q甘宁.jpg */,
+				56A19D3E1BDFD28A001F6075 /* 【吴】Q陆逊.jpg */,
+				56A19D3F1BDFD28A001F6075 /* 【吴】Q黄盖.jpg */,
+				56A19D401BDFD28A001F6075 /* 【吴】凌统.jpg */,
+				56A19D411BDFD28A001F6075 /* 【吴】吕蒙.jpg */,
+				56A19D421BDFD28A001F6075 /* 【吴】吴国太.jpg */,
+				56A19D431BDFD28A001F6075 /* 【吴】周泰.jpg */,
+				56A19D441BDFD28A001F6075 /* 【吴】周瑜.jpg */,
+				56A19D451BDFD28A001F6075 /* 【吴】大乔.jpg */,
+				56A19D461BDFD28A001F6075 /* 【吴】太史慈.jpg */,
+				56A19D471BDFD28A001F6075 /* 【吴】孙坚.jpg */,
+				56A19D481BDFD28A001F6075 /* 【吴】孙尚香.jpg */,
+				56A19D491BDFD28A001F6075 /* 【吴】孙权.jpg */,
+				56A19D4A1BDFD28A001F6075 /* 【吴】孙策.jpg */,
+				56A19D4B1BDFD28A001F6075 /* 【吴】小乔.jpg */,
+				56A19D4C1BDFD28A001F6075 /* 【吴】张昭.jpg */,
+				56A19D4D1BDFD28A001F6075 /* 【吴】张紘.jpg */,
+				56A19D4E1BDFD28A001F6075 /* 【吴】徐盛.jpg */,
+				56A19D4F1BDFD28A001F6075 /* 【吴】步练师.jpg */,
+				56A19D501BDFD28A001F6075 /* 【吴】甘宁.jpg */,
+				56A19D511BDFD28A001F6075 /* 【吴】程普.jpg */,
+				56A19D521BDFD28A001F6075 /* 【吴】陆逊.jpg */,
+				56A19D531BDFD28A001F6075 /* 【吴】韩当.jpg */,
+				56A19D541BDFD28A001F6075 /* 【吴】鲁肃.jpg */,
+				56A19D551BDFD28A001F6075 /* 【吴】黄盖.jpg */,
+				56A19D561BDFD28A001F6075 /* 【神】关羽.jpg */,
+				56A19D571BDFD28A001F6075 /* 【神】司马懿.jpg */,
+				56A19D581BDFD28A001F6075 /* 【神】吕布.jpg */,
+				56A19D591BDFD28A001F6075 /* 【神】吕蒙.jpg */,
+				56A19D5A1BDFD28A001F6075 /* 【神】周瑜.jpg */,
+				56A19D5B1BDFD28A001F6075 /* 【神】曹操.jpg */,
+				56A19D5C1BDFD28A001F6075 /* 【神】诸葛亮.jpg */,
+				56A19D5D1BDFD28A001F6075 /* 【神】赵云.jpg */,
+				56A19D5E1BDFD28A001F6075 /* 【群】Q华佗.jpg */,
+				56A19D5F1BDFD28A001F6075 /* 【群】Q吕布.jpg */,
+				56A19D601BDFD28A001F6075 /* 【群】Q貂蝉.jpg */,
+				56A19D611BDFD28A001F6075 /* 【群】SP貂蝉.jpg */,
+				56A19D621BDFD28A001F6075 /* 【群】SP赵云.jpg */,
+				56A19D631BDFD28A001F6075 /* 【群】SP马超.jpg */,
+				56A19D641BDFD28A001F6075 /* 【群】于吉.jpg */,
+				56A19D651BDFD28A001F6075 /* 【群】公孙瓒.jpg */,
+				56A19D661BDFD28A001F6075 /* 【群】出浴貂蝉.jpg */,
+				56A19D671BDFD28A001F6075 /* 【群】华佗.jpg */,
+				56A19D681BDFD28A001F6075 /* 【群】华雄.jpg */,
+				56A19D691BDFD28A001F6075 /* 【群】吕布.jpg */,
+				56A19D6A1BDFD28A001F6075 /* 【群】左慈.jpg */,
+				56A19D6B1BDFD28A001F6075 /* 【群】庞德.jpg */,
+				56A19D6C1BDFD28A001F6075 /* 【群】张角.jpg */,
+				56A19D6D1BDFD28A001F6075 /* 【群】文丑.jpg */,
+				56A19D6E1BDFD28A001F6075 /* 【群】董卓.jpg */,
+				56A19D6F1BDFD28A001F6075 /* 【群】蔡文姬.jpg */,
+				56A19D701BDFD28A001F6075 /* 【群】袁术.jpg */,
+				56A19D711BDFD28A001F6075 /* 【群】袁术（哭）.jpg */,
+				56A19D721BDFD28A001F6075 /* 【群】袁绍.jpg */,
+				56A19D731BDFD28A001F6075 /* 【群】貂蝉.jpg */,
+				56A19D741BDFD28A001F6075 /* 【群】贾诩.jpg */,
+				56A19D751BDFD28A001F6075 /* 【群】陈宫.jpg */,
+				56A19D761BDFD28A001F6075 /* 【群】颜良.jpg */,
+				56A19D771BDFD28A001F6075 /* 【群】高顺.jpg */,
+				56A19D781BDFD28A001F6075 /* 【蜀】Q关羽.jpg */,
+				56A19D791BDFD28A001F6075 /* 【蜀】Q刘备.jpg */,
+				56A19D7A1BDFD28A001F6075 /* 【蜀】Q张飞.jpg */,
+				56A19D7B1BDFD28A001F6075 /* 【蜀】Q诸葛亮.jpg */,
+				56A19D7C1BDFD28A001F6075 /* 【蜀】Q赵云.jpg */,
+				56A19D7D1BDFD28A001F6075 /* 【蜀】Q马超.jpg */,
+				56A19D7E1BDFD28A001F6075 /* 【蜀】Q黄月英.jpg */,
+				56A19D7F1BDFD28A001F6075 /* 【蜀】SP孙尚香.jpg */,
+				56A19D801BDFD28A001F6075 /* 【蜀】关兴.jpg */,
+				56A19D811BDFD28A001F6075 /* 【蜀】关羽.jpg */,
+				56A19D821BDFD28A001F6075 /* 【蜀】刘备.jpg */,
+				56A19D831BDFD28A001F6075 /* 【蜀】刘禅.jpg */,
+				56A19D841BDFD28A001F6075 /* 【蜀】姜维.jpg */,
+				56A19D851BDFD28A001F6075 /* 【蜀】威武霸气我大马参军.jpg */,
+				56A19D861BDFD28A001F6075 /* 【蜀】孟获.jpg */,
+				56A19D871BDFD28A001F6075 /* 【蜀】庞统.jpg */,
+				56A19D881BDFD28A001F6075 /* 【蜀】廖化.jpg */,
+				56A19D891BDFD28A001F6075 /* 【蜀】张苞.jpg */,
+				56A19D8A1BDFD28A001F6075 /* 【蜀】张飞.jpg */,
+				56A19D8B1BDFD28A001F6075 /* 【蜀】徐庶.jpg */,
+				56A19D8C1BDFD28A001F6075 /* 【蜀】法正.jpg */,
+				56A19D8D1BDFD28A001F6075 /* 【蜀】祝融.jpg */,
+				56A19D8E1BDFD28A001F6075 /* 【蜀】诸葛亮.jpg */,
+				56A19D8F1BDFD28A001F6075 /* 【蜀】诸葛亮（卧龙）.jpg */,
+				56A19D901BDFD28A001F6075 /* 【蜀】赵云.jpg */,
+				56A19D911BDFD28A001F6075 /* 【蜀】马岱.jpg */,
+				56A19D921BDFD28A001F6075 /* 【蜀】马超.jpg */,
+				56A19D931BDFD28A001F6075 /* 【蜀】魏延.jpg */,
+				56A19D941BDFD28A001F6075 /* 【蜀】黄忠.jpg */,
+				56A19D951BDFD28A001F6075 /* 【蜀】黄月英.jpg */,
+				56A19D961BDFD28A001F6075 /* 【魏】Q司马懿.jpg */,
+				56A19D971BDFD28A001F6075 /* 【魏】Q夏侯惇.jpg */,
+				56A19D981BDFD28A001F6075 /* 【魏】Q张辽.jpg */,
+				56A19D991BDFD28A001F6075 /* 【魏】Q曹操.jpg */,
+				56A19D9A1BDFD28A001F6075 /* 【魏】Q杨修.jpg */,
+				56A19D9B1BDFD28A001F6075 /* 【魏】Q甄姬.jpg */,
+				56A19D9C1BDFD28A001F6075 /* 【魏】Q许褚.jpg */,
+				56A19D9D1BDFD28A001F6075 /* 【魏】Q郭嘉.jpg */,
+				56A19D9E1BDFD28A001F6075 /* 【魏】SP关羽.jpg */,
+				56A19D9F1BDFD28A001F6075 /* 【魏】SP庞德.jpg */,
+				56A19DA01BDFD28A001F6075 /* 【魏】SP蔡文姬.jpg */,
+				56A19DA11BDFD28A001F6075 /* 【魏】SP贾诩.jpg */,
+				56A19DA21BDFD28A001F6075 /* 【魏】于禁.jpg */,
+				56A19DA31BDFD28A001F6075 /* 【魏】典韦.jpg */,
+				56A19DA41BDFD28A001F6075 /* 【魏】司马懿.jpg */,
+				56A19DA51BDFD28A001F6075 /* 【魏】夏侯惇.jpg */,
+				56A19DA61BDFD28A001F6075 /* 【魏】夏侯渊.jpg */,
+				56A19DA71BDFD28A001F6075 /* 【魏】张春华.jpg */,
+				56A19DA81BDFD28A001F6075 /* 【魏】张辽.jpg */,
+				56A19DA91BDFD28A001F6075 /* 【魏】张郃.jpg */,
+				56A19DAA1BDFD28A001F6075 /* 【魏】徐晃.jpg */,
+				56A19DAB1BDFD28A001F6075 /* 【魏】曹丕.jpg */,
+				56A19DAC1BDFD28A001F6075 /* 【魏】曹仁.jpg */,
+				56A19DAD1BDFD28A001F6075 /* 【魏】曹彰.jpg */,
+				56A19DAE1BDFD28A001F6075 /* 【魏】曹操.jpg */,
+				56A19DAF1BDFD28A001F6075 /* 【魏】曹植.jpg */,
+				56A19DB01BDFD28A001F6075 /* 【魏】杨修.jpg */,
+				56A19DB11BDFD28A001F6075 /* 【魏】王异.jpg */,
+				56A19DB21BDFD28A001F6075 /* 【魏】甄姬.jpg */,
+				56A19DB31BDFD28A001F6075 /* 【魏】荀彧.jpg */,
+				56A19DB41BDFD28A001F6075 /* 【魏】荀攸.jpg */,
+				56A19DB51BDFD28A001F6075 /* 【魏】许褚.jpg */,
+				56A19DB61BDFD28A001F6075 /* 【魏】邓艾.jpg */,
+				56A19DB71BDFD28A001F6075 /* 【魏】郭嘉.jpg */,
+				56A19DB81BDFD28A001F6075 /* 【魏】钟会.jpg */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		569729B91BDD181400B144B7 /* Jsons */ = {
+			isa = PBXGroup;
+			children = (
+				569729BA1BDD181400B144B7 /* contacts.json */,
+			);
+			path = Jsons;
+			sourceTree = "<group>";
+		};
+		569729CA1BDD219200B144B7 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				569729CB1BDD21E400B144B7 /* JYXContactsManager.h */,
+				569729CC1BDD21E400B144B7 /* JYXContactsManager.m */,
+			);
+			name = Manager;
+			sourceTree = "<group>";
+		};
+		56A19D311BDFB77F001F6075 /* CollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				56A19D321BDFB7A4001F6075 /* JYXContactCollectionViewCell.h */,
+				56A19D331BDFB7A4001F6075 /* JYXContactCollectionViewCell.m */,
+			);
+			name = CollectionViewCell;
+			sourceTree = "<group>";
+		};
+		56A19E3E1BDFD350001F6075 /* Script */ = {
+			isa = PBXGroup;
+			children = (
+				56A19E3F1BDFD394001F6075 /* contactsjson_generator.rb */,
+			);
+			path = Script;
+			sourceTree = "<group>";
+		};
+		56D140FE1BDE77B10049EC76 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				56D140FF1BDE77BC0049EC76 /* JYXContactsPanelView */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		56D140FF1BDE77BC0049EC76 /* JYXContactsPanelView */ = {
+			isa = PBXGroup;
+			children = (
+				56C36DB51BDE78710014FCEA /* JYXContactsPanelView.h */,
+				56C36DB61BDE78710014FCEA /* JYXContactsPanelView.m */,
+			);
+			name = JYXContactsPanelView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		569729851BDD102900B144B7 /* JYXContactsDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5697299D1BDD102900B144B7 /* Build configuration list for PBXNativeTarget "JYXContactsDemo" */;
+			buildPhases = (
+				27F1E82C71161E76DB800B9D /* Check Pods Manifest.lock */,
+				569729821BDD102900B144B7 /* Sources */,
+				569729831BDD102900B144B7 /* Frameworks */,
+				569729841BDD102900B144B7 /* Resources */,
+				E2C62C21972493BB3E03F6FD /* Embed Pods Frameworks */,
+				F2F14FB2F1623F826E5E97F2 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JYXContactsDemo;
+			productName = JYXContactsDemo;
+			productReference = 569729861BDD102900B144B7 /* JYXContactsDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5697297E1BDD102900B144B7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = iamjiyixuan;
+				TargetAttributes = {
+					569729851BDD102900B144B7 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = E6XA66GGK7;
+					};
+				};
+			};
+			buildConfigurationList = 569729811BDD102900B144B7 /* Build configuration list for PBXProject "JYXContactsDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5697297D1BDD102900B144B7;
+			productRefGroup = 569729871BDD102900B144B7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				569729851BDD102900B144B7 /* JYXContactsDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		569729841BDD102900B144B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56A19E351BDFD28A001F6075 /* 【魏】甄姬.jpg in Resources */,
+				56A19DF61BDFD28A001F6075 /* 【群】貂蝉.jpg in Resources */,
+				56A19E2B1BDFD28A001F6075 /* 【魏】张辽.jpg in Resources */,
+				56A19E191BDFD28A001F6075 /* 【魏】Q司马懿.jpg in Resources */,
+				56A19DD31BDFD28A001F6075 /* 【吴】甘宁.jpg in Resources */,
+				56A19DFF1BDFD28A001F6075 /* 【蜀】Q赵云.jpg in Resources */,
+				56A19E301BDFD28A001F6075 /* 【魏】曹彰.jpg in Resources */,
+				56A19DBF1BDFD28A001F6075 /* 【吴】Q孙权.jpg in Resources */,
+				56A19E131BDFD28A001F6075 /* 【蜀】赵云.jpg in Resources */,
+				56A19DF41BDFD28A001F6075 /* 【群】袁术（哭）.jpg in Resources */,
+				56A19E0C1BDFD28A001F6075 /* 【蜀】张苞.jpg in Resources */,
+				56A19DF21BDFD28A001F6075 /* 【群】蔡文姬.jpg in Resources */,
+				56A19DCC1BDFD28A001F6075 /* 【吴】孙权.jpg in Resources */,
+				56A19DD21BDFD28A001F6075 /* 【吴】步练师.jpg in Resources */,
+				56A19DD41BDFD28A001F6075 /* 【吴】程普.jpg in Resources */,
+				56A19E211BDFD28A001F6075 /* 【魏】SP关羽.jpg in Resources */,
+				56A19DDD1BDFD28A001F6075 /* 【神】周瑜.jpg in Resources */,
+				56A19DC31BDFD28A001F6075 /* 【吴】凌统.jpg in Resources */,
+				56A19DE81BDFD28A001F6075 /* 【群】公孙瓒.jpg in Resources */,
+				56A19E2A1BDFD28A001F6075 /* 【魏】张春华.jpg in Resources */,
+				56A19DFA1BDFD28A001F6075 /* 【群】高顺.jpg in Resources */,
+				56A19E3B1BDFD28A001F6075 /* 【魏】钟会.jpg in Resources */,
+				56A19E1B1BDFD28A001F6075 /* 【魏】Q张辽.jpg in Resources */,
+				56A19E171BDFD28A001F6075 /* 【蜀】黄忠.jpg in Resources */,
+				56A19E361BDFD28A001F6075 /* 【魏】荀彧.jpg in Resources */,
+				56A19DBD1BDFD28A001F6075 /* 【吴】Q大乔.jpg in Resources */,
+				56A19E061BDFD28A001F6075 /* 【蜀】刘禅.jpg in Resources */,
+				56A19DFE1BDFD28A001F6075 /* 【蜀】Q诸葛亮.jpg in Resources */,
+				56A19DCF1BDFD28A001F6075 /* 【吴】张昭.jpg in Resources */,
+				56A19E091BDFD28A001F6075 /* 【蜀】孟获.jpg in Resources */,
+				56A19E2C1BDFD28A001F6075 /* 【魏】张郃.jpg in Resources */,
+				56A19DE11BDFD28A001F6075 /* 【群】Q华佗.jpg in Resources */,
+				56A19E1E1BDFD28A001F6075 /* 【魏】Q甄姬.jpg in Resources */,
+				56A19DD51BDFD28A001F6075 /* 【吴】陆逊.jpg in Resources */,
+				56A19DE51BDFD28A001F6075 /* 【群】SP赵云.jpg in Resources */,
+				56A19E291BDFD28A001F6075 /* 【魏】夏侯渊.jpg in Resources */,
+				56A19E261BDFD28A001F6075 /* 【魏】典韦.jpg in Resources */,
+				56A19E3A1BDFD28A001F6075 /* 【魏】郭嘉.jpg in Resources */,
+				56A19DF01BDFD28A001F6075 /* 【群】文丑.jpg in Resources */,
+				56A19DE91BDFD28A001F6075 /* 【群】出浴貂蝉.jpg in Resources */,
+				56A19E201BDFD28A001F6075 /* 【魏】Q郭嘉.jpg in Resources */,
+				56A19DFC1BDFD28A001F6075 /* 【蜀】Q刘备.jpg in Resources */,
+				56A19E081BDFD28A001F6075 /* 【蜀】威武霸气我大马参军.jpg in Resources */,
+				56A19DEC1BDFD28A001F6075 /* 【群】吕布.jpg in Resources */,
+				56A19DF81BDFD28A001F6075 /* 【群】陈宫.jpg in Resources */,
+				56A19DEE1BDFD28A001F6075 /* 【群】庞德.jpg in Resources */,
+				56A19DDE1BDFD28A001F6075 /* 【神】曹操.jpg in Resources */,
+				56A19E2F1BDFD28A001F6075 /* 【魏】曹仁.jpg in Resources */,
+				56A19E251BDFD28A001F6075 /* 【魏】于禁.jpg in Resources */,
+				56A19DEA1BDFD28A001F6075 /* 【群】华佗.jpg in Resources */,
+				56A19E151BDFD28A001F6075 /* 【蜀】马超.jpg in Resources */,
+				56A19DC21BDFD28A001F6075 /* 【吴】Q黄盖.jpg in Resources */,
+				56A19DE31BDFD28A001F6075 /* 【群】Q貂蝉.jpg in Resources */,
+				56A19E1A1BDFD28A001F6075 /* 【魏】Q夏侯惇.jpg in Resources */,
+				56A19DDB1BDFD28A001F6075 /* 【神】吕布.jpg in Resources */,
+				56A19E391BDFD28A001F6075 /* 【魏】邓艾.jpg in Resources */,
+				56A19E321BDFD28A001F6075 /* 【魏】曹植.jpg in Resources */,
+				56A19E041BDFD28A001F6075 /* 【蜀】关羽.jpg in Resources */,
+				569729961BDD102900B144B7 /* Assets.xcassets in Resources */,
+				56A19E0A1BDFD28A001F6075 /* 【蜀】庞统.jpg in Resources */,
+				56A19E031BDFD28A001F6075 /* 【蜀】关兴.jpg in Resources */,
+				56A19DE01BDFD28A001F6075 /* 【神】赵云.jpg in Resources */,
+				56A19DEB1BDFD28A001F6075 /* 【群】华雄.jpg in Resources */,
+				56A19E271BDFD28A001F6075 /* 【魏】司马懿.jpg in Resources */,
+				56A19E331BDFD28A001F6075 /* 【魏】杨修.jpg in Resources */,
+				56A19DDC1BDFD28A001F6075 /* 【神】吕蒙.jpg in Resources */,
+				56A19DBB1BDFD28A001F6075 /* 【吴】Q吕蒙.jpg in Resources */,
+				56A19E111BDFD28A001F6075 /* 【蜀】诸葛亮.jpg in Resources */,
+				569729C51BDD181400B144B7 /* contacts.json in Resources */,
+				56A19E141BDFD28A001F6075 /* 【蜀】马岱.jpg in Resources */,
+				56A19E0B1BDFD28A001F6075 /* 【蜀】廖化.jpg in Resources */,
+				56A19DFD1BDFD28A001F6075 /* 【蜀】Q张飞.jpg in Resources */,
+				56A19E1D1BDFD28A001F6075 /* 【魏】Q杨修.jpg in Resources */,
+				56A19E401BDFD394001F6075 /* contactsjson_generator.rb in Resources */,
+				56A19DFB1BDFD28A001F6075 /* 【蜀】Q关羽.jpg in Resources */,
+				56A19E2D1BDFD28A001F6075 /* 【魏】徐晃.jpg in Resources */,
+				56A19DE41BDFD28A001F6075 /* 【群】SP貂蝉.jpg in Resources */,
+				56A19DC51BDFD28A001F6075 /* 【吴】吴国太.jpg in Resources */,
+				56A19DDA1BDFD28A001F6075 /* 【神】司马懿.jpg in Resources */,
+				56A19E001BDFD28A001F6075 /* 【蜀】Q马超.jpg in Resources */,
+				56A19DC61BDFD28A001F6075 /* 【吴】周泰.jpg in Resources */,
+				56A19E1F1BDFD28A001F6075 /* 【魏】Q许褚.jpg in Resources */,
+				56A19DE71BDFD28A001F6075 /* 【群】于吉.jpg in Resources */,
+				56A19DCB1BDFD28A001F6075 /* 【吴】孙尚香.jpg in Resources */,
+				56A19E161BDFD28A001F6075 /* 【蜀】魏延.jpg in Resources */,
+				56A19E311BDFD28A001F6075 /* 【魏】曹操.jpg in Resources */,
+				56A19DCE1BDFD28A001F6075 /* 【吴】小乔.jpg in Resources */,
+				56A19DC01BDFD28A001F6075 /* 【吴】Q甘宁.jpg in Resources */,
+				56A19DF31BDFD28A001F6075 /* 【群】袁术.jpg in Resources */,
+				56A19DDF1BDFD28A001F6075 /* 【神】诸葛亮.jpg in Resources */,
+				56A19DE21BDFD28A001F6075 /* 【群】Q吕布.jpg in Resources */,
+				56A19E0E1BDFD28A001F6075 /* 【蜀】徐庶.jpg in Resources */,
+				56A19DE61BDFD28A001F6075 /* 【群】SP马超.jpg in Resources */,
+				56A19E181BDFD28A001F6075 /* 【蜀】黄月英.jpg in Resources */,
+				56A19E241BDFD28A001F6075 /* 【魏】SP贾诩.jpg in Resources */,
+				56A19DCD1BDFD28A001F6075 /* 【吴】孙策.jpg in Resources */,
+				56A19DD01BDFD28A001F6075 /* 【吴】张紘.jpg in Resources */,
+				56A19DED1BDFD28A001F6075 /* 【群】左慈.jpg in Resources */,
+				56A19DEF1BDFD28A001F6075 /* 【群】张角.jpg in Resources */,
+				56A19DBC1BDFD28A001F6075 /* 【吴】Q周瑜.jpg in Resources */,
+				56A19DC71BDFD28A001F6075 /* 【吴】周瑜.jpg in Resources */,
+				56A19E371BDFD28A001F6075 /* 【魏】荀攸.jpg in Resources */,
+				56A19E021BDFD28A001F6075 /* 【蜀】SP孙尚香.jpg in Resources */,
+				56A19DF11BDFD28A001F6075 /* 【群】董卓.jpg in Resources */,
+				56A19E101BDFD28A001F6075 /* 【蜀】祝融.jpg in Resources */,
+				56A19E1C1BDFD28A001F6075 /* 【魏】Q曹操.jpg in Resources */,
+				56A19DC91BDFD28A001F6075 /* 【吴】太史慈.jpg in Resources */,
+				56A19E051BDFD28A001F6075 /* 【蜀】刘备.jpg in Resources */,
+				56A19E071BDFD28A001F6075 /* 【蜀】姜维.jpg in Resources */,
+				56A19DD11BDFD28A001F6075 /* 【吴】徐盛.jpg in Resources */,
+				56A19DCA1BDFD28A001F6075 /* 【吴】孙坚.jpg in Resources */,
+				56A19DBE1BDFD28A001F6075 /* 【吴】Q孙尚香.jpg in Resources */,
+				56A19E221BDFD28A001F6075 /* 【魏】SP庞德.jpg in Resources */,
+				56A19DF51BDFD28A001F6075 /* 【群】袁绍.jpg in Resources */,
+				56A19E121BDFD28A001F6075 /* 【蜀】诸葛亮（卧龙）.jpg in Resources */,
+				56A19DD61BDFD28A001F6075 /* 【吴】韩当.jpg in Resources */,
+				56A19DC11BDFD28A001F6075 /* 【吴】Q陆逊.jpg in Resources */,
+				56A19DD71BDFD28A001F6075 /* 【吴】鲁肃.jpg in Resources */,
+				56A19E281BDFD28A001F6075 /* 【魏】夏侯惇.jpg in Resources */,
+				56A19E0F1BDFD28A001F6075 /* 【蜀】法正.jpg in Resources */,
+				56A19E231BDFD28A001F6075 /* 【魏】SP蔡文姬.jpg in Resources */,
+				56A19DD81BDFD28A001F6075 /* 【吴】黄盖.jpg in Resources */,
+				56A19E381BDFD28A001F6075 /* 【魏】许褚.jpg in Resources */,
+				56A19E341BDFD28A001F6075 /* 【魏】王异.jpg in Resources */,
+				56A19E2E1BDFD28A001F6075 /* 【魏】曹丕.jpg in Resources */,
+				56A19DD91BDFD28A001F6075 /* 【神】关羽.jpg in Resources */,
+				56A19DC41BDFD28A001F6075 /* 【吴】吕蒙.jpg in Resources */,
+				56A19E011BDFD28A001F6075 /* 【蜀】Q黄月英.jpg in Resources */,
+				56A19DC81BDFD28A001F6075 /* 【吴】大乔.jpg in Resources */,
+				56A19DF91BDFD28A001F6075 /* 【群】颜良.jpg in Resources */,
+				56A19DF71BDFD28A001F6075 /* 【群】贾诩.jpg in Resources */,
+				56A19E0D1BDFD28A001F6075 /* 【蜀】张飞.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		27F1E82C71161E76DB800B9D /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E2C62C21972493BB3E03F6FD /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JYXContactsDemo/Pods-JYXContactsDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F2F14FB2F1623F826E5E97F2 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JYXContactsDemo/Pods-JYXContactsDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		569729821BDD102900B144B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56A19D341BDFB7A4001F6075 /* JYXContactCollectionViewCell.m in Sources */,
+				569729911BDD102900B144B7 /* ViewController.m in Sources */,
+				569729CD1BDD21E400B144B7 /* JYXContactsManager.m in Sources */,
+				56C36DBA1BDE78D80014FCEA /* JYXContactsPanelViewController.m in Sources */,
+				5697298E1BDD102900B144B7 /* AppDelegate.m in Sources */,
+				569729AC1BDD16F100B144B7 /* JYXContactTableViewCell.m in Sources */,
+				56C36DB71BDE78710014FCEA /* JYXContactsPanelView.m in Sources */,
+				5697298B1BDD102900B144B7 /* main.m in Sources */,
+				569729D21BDD22F300B144B7 /* JYXGroup.m in Sources */,
+				569729A81BDD16B000B144B7 /* JYXContact.m in Sources */,
+				56A19D371BDFBE9E001F6075 /* JYXContact+JYXContactsPanelViewContact.m in Sources */,
+				569729A21BDD15FF00B144B7 /* JYXContactsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5697299B1BDD102900B144B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5697299C1BDD102900B144B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5697299E1BDD102900B144B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1B52D1FE12D0719A55FC6FF /* Pods-JYXContactsDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = JYXContactsDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iamjiyixuan.JYXContactsDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5697299F1BDD102900B144B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30EEC2B180270111459444C3 /* Pods-JYXContactsDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = JYXContactsDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iamjiyixuan.JYXContactsDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		569729811BDD102900B144B7 /* Build configuration list for PBXProject "JYXContactsDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5697299B1BDD102900B144B7 /* Debug */,
+				5697299C1BDD102900B144B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5697299D1BDD102900B144B7 /* Build configuration list for PBXNativeTarget "JYXContactsDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5697299E1BDD102900B144B7 /* Debug */,
+				5697299F1BDD102900B144B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5697297E1BDD102900B144B7 /* Project object */;
+}
